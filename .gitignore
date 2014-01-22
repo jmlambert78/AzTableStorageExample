@@ -1,0 +1,3 @@
+# Ignores
+/config.json
+node_modules/
