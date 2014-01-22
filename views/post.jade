@@ -1,0 +1,6 @@
+extends layout
+
+block content
+    h1 #{model.post.title}
+    p #{model.post.content}
+    p(style='font-size: 0.7em, color: grey') Modelid: #{model.id}

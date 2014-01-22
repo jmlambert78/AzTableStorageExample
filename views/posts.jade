@@ -1,0 +1,7 @@
+extends layout
+
+block content
+    h1 Posts
+    each post in model.posts
+        li
+            a(href='#{post.slug}') #{post.title}

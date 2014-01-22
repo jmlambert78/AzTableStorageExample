@@ -1,0 +1,21 @@
+{
+  "name": "StorageTest",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3.4.7",
+    "jade": "*",
+    "less-middleware": "*",
+    "async": "~0.2.9",
+    "node-uuid": "~1.4.1",
+    "nconf": "~0.6.9",
+    "azure": "~0.8.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-jshint": "~0.8.0"
+  }
+}
